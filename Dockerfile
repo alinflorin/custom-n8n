@@ -4,6 +4,7 @@ RUN apk add
 RUN apk add ffmpeg
 RUN npm i -g fluent-ffmpeg
 RUN npm i -g sydney-ai
+RUN npm i -g fix-esm
 
 ENV NODE_FUNCTION_ALLOW_BUILTIN=*
 ENV NODE_FUNCTION_ALLOW_EXTERNAL=*
